@@ -14,7 +14,7 @@ api_key = "REDACTED"
 
 client = Mistral(api_key=api_key)
 
-mistral_model = "mistral-medium-2508"
+mistral_model = "mistral-small-2508"
 
 # whisper_model = whisper.load_model("base", device="cuda")
 # if torch.cuda.is_available():
