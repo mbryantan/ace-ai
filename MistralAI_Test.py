@@ -25,7 +25,8 @@ mistral_model = "mistral-small-2508"
 
 vosk_model_path = "vosk-model-en-us-0.22"
 vosk_model = Model(vosk_model_path)
-recognizer = KaldiRecognizer(vosk_model, 16000)
+recognizer = KaldiRecognizer(vosk_model, 17000)
+
 
 engine = pyttsx3.init()
 engine.setProperty("rate", 180)
